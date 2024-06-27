@@ -1,0 +1,26 @@
+site_name: KELECO
+theme:
+  name: material
+  palette:
+    primary: black
+<<<<<<< HEAD
+  icon:
+    admonition:
+      text: material/text-box
+plugins:
+  - search
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - https://cdn.emailjs.com/dist/email.min.js
+  - js/extra.js
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+=======
+>>>>>>> d260c8ddd23acfead12ba1bd6cc6093885f8256d
