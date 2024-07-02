@@ -1,0 +1,90 @@
+.md-header{
+    padding-top: calc(100px / 2 - 48px / 2);
+    height: 100px;  
+}
+
+.md-header__inner{
+    vertical-align: middle;
+}
+
+.md-header__button{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* x-offset, y-offset, Blur-Radius, Farbe */
+}
+
+.md-search__input{    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.iframe-container {
+    display: flex;
+    align-items: center;justify-content: center;
+    width: 100%;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    border: 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#myButton {
+    background-color: #000000; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button appear inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#myButton:hover {
+    color: rgb(0, 0, 0); /* White text */
+    background-color: rgb(245, 245, 245); /* Darker green on hover */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the popup */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Popup content */
+  .popup-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Close button */
+  .close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
