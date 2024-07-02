@@ -3,7 +3,6 @@ theme:
   name: material
   palette:
     primary: black
-<<<<<<< HEAD
   icon:
     admonition:
       text: material/text-box
@@ -22,5 +21,3 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-=======
->>>>>>> d260c8ddd23acfead12ba1bd6cc6093885f8256d
